@@ -1,9 +1,10 @@
 
 h1{
     color:blueviolet;
-    margin-left : 50px; 
+    margin-left : 50px;
+    font-family: 'Lobster', cursive;
 }
-.header * {
+.h1 * {
     border:solid
 }
 .header{
@@ -23,6 +24,7 @@ h1{
 }
 p,h2{
     text-align:center;
+    font-family: 'Lobster', cursive;
     
 }
 body{
@@ -30,6 +32,7 @@ body{
 }
 a:link{
     color:white;
+    font-family: 'Lobster', cursive;
 }
 
 a:visited{
@@ -62,8 +65,16 @@ a:active{
     left: 50%;
     transform: translate(-50%,-50%);
     opacity:0;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    
 }
 
 .item:hover p{
-    opacity: 0.33;
+    opacity: 1;
+}
+
+
+.item{
+    margin: 60px;
 }
